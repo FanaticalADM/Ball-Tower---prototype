@@ -65,6 +65,7 @@ public class PlatformController : MonoBehaviour
         platformRb.velocity = new Vector3(0, 0, 0);
         platformRb.angularVelocity = new Vector3(0, 0, 0);
         transform.rotation = Quaternion.identity;
+        platformRb.constraints = RigidbodyConstraints.FreezeAll;
     }
 
 }

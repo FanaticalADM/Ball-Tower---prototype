@@ -2379,8 +2379,8 @@ MonoBehaviour:
   - {fileID: 6146355841825039513, guid: 187f1a75e1bb04d94b96a8f0f29deb8f, type: 3}
   allSpawns: []
   player: {fileID: 594692437}
-  powerupChanceValue: 50
-  enemyChanceValue: 30
+  powerupChanceValue: 20
+  enemyChanceValue: 15
   hight: 0
   addHight: 1.5
 --- !u!4 &1333349516
